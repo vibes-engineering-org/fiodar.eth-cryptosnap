@@ -1,3 +1,4 @@
+"use client";
 import React, { useRef, useEffect, useState, useCallback } from "react";
 import { Card, CardHeader, CardTitle, CardContent } from "~/components/ui/card";
 import { createSupabaseClientWithToken } from "~/lib/supabase";
@@ -173,11 +174,4 @@ export default function BucketExplorer() {
       </CardContent>
     </Card>
   );
-}
-"use client";
-
-import React from "react";
-
-export default function BucketExplorer() {
-  return <div>BucketExplorer placeholder</div>;
 }
