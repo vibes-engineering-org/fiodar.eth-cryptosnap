@@ -174,3 +174,10 @@ export default function BucketExplorer() {
     </Card>
   );
 }
+"use client";
+
+import React from "react";
+
+export default function BucketExplorer() {
+  return <div>BucketExplorer placeholder</div>;
+}
